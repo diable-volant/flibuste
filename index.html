@@ -1,77 +1,160 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<HTML>
-<HEAD>
-<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
-<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<title>Les flibustiers de l'Amérique (1648-1688)</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<META NAME="Author" CONTENT="Raynald Laprise">
 <META NAME="keywords" CONTENT="histoire des flibustiers, flibustier, pirate, pirates, piracy, piraterie, buccaneers, Jamaica History, Hispaniola History, corsaires, privateers, flibuste, privateering, Saint-Domingue, tortue">
 <META NAME="description" CONTENT="Histoire et vie des flibustiers, pirates et corsaires de la Jamaique et de Saint-Domingue au 17e siecle.">
-<META NAME="Author" CONTENT="Raynald Laprise">
 
-<TITLE>Les flibustiers de l'Amérique (1648-1688)</TITLE>
+<style>
+* {box-sizing: border-box;}
 
-<LINK REL="stylesheet" TYPE="text/css" HREF="flibuste.css">
+body {font-family: Arial, Verdana, sans-serif;}
 
-<STYLE TYPE="text/css">
+/* Style the header */
+header {
+  background-color: #FFFFFF;
+  padding: 0px;
+  text-align: left;
+  font-size: 20px;
+}
 
-.warning {color: #FFFFFF; font-family: arial, sans serif; font-size: 48pt; font-weight: bold; text-align: center}
-.texte {color: #000000; font-family: times, serif; font-weight: bold; font-size: 12pt; text-align: center; margin: 20px}
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
 
-.texte1 {color: #FFFFFF; font-family: arial, sans serif; font-size: 12pt; text-align: justify; margin: 30px}
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #c2e4f1;
+  padding: 20px;
+  border-left: 2px solid #5f7d8b;
+  border-right: 2px solid #5f7d8b;
+  font-family: Copperplate, Papyrus, fantasy;
+}
 
-.source {margin-left: 30px; font-family: times, serif; font-style: normal; font-size: 12pt}
-
-</STYLE>
-
-
-
-</HEAD>
-<BODY TEXT="#000000" BGCOLOR="#FFFFFF" LINK="#0000FF" VLINK="#551A8B" ALINK="#0000FF">
-
-
-<TABLE SUMMARY="Le Diable Volant" CELLSPACING="0" CELLPADDING="4" BORDER="0" WIDTH="808" ALIGN="CENTER">
-
-
-<TR><TD VALIGN="MIDDLE" ALIGN="CENTER">
-<IMG SRC="menu.jpg" ALT="Le Diable Volant: français" WIDTH="800" HEIGHT="112">
-</TD></TR>
-
-<TR><TD VALIGN="TOP">
-
-
-<DIV CLASS="menu">
-
-<P>L'histoire, la vie et les moeurs des flibustiers, corsaires et pirates de la Jamaïque et de Saint-Domingue et autres lieux dans l'Amérique dans la seconde moitié du XVIIe siècle</P>
-
-<DIV CLASS="copy"><IMG SRC="1b.gif" ALT="ligne" ALIGN="top" WIDTH="350" HEIGHT="2"></P>
-
-<P><A HREF="gazette/diable_volant.html">À tout ceux que ces présentes lettres verront, salut...</A></P>
-
-<P><A HREF="http://diable-volant.blogspot.com/">La Gazette de la Flibuste</A>, par laquelle l'on aura avis de ce qu'il y a de nouveau à bord.
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
 
 
-<P><A HREF="Livre/livre.html">Une Histoire des flibustiers</A>, ces pirates et corsaires de l'Amérique durant la seconde moitié du XVIIe siècle, depuis leur origine, qui remonte à la Conquête des Indes Occidentales par les Espagnols (leur principaux ennemis et victimes), jusqu'à la fin de la Guerre du roi Guillaume.</P>
 
-<P><A HREF="Livre/livre.html">La Coutume de la Côte</A>, contenant une description de l'époque, de la vie et des moeurs des pirates et corsaires de Saint-Domingue, de la Jamaïque et autres lieux dans l'Amérique, de 1648 à 1688.</P>
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #fcfbf5;
+  padding: 10px;
+  font-family: Georgia, Garamond, serif;
+}
+
+/* Style the footer */
+footer {
+  background-color: #5f7d8b;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+img {float: left;}
+
+.titre {color: #1e90ff; font-family: verdana, sans serif; font-weight: bold; text-align: left; margin-top:0; margin-bottom:0}
+
+.listpad {padding-bottom:15px}
+
+a.nav:link {color:#5f7d8b;text-decoration: none; border-left: 4px solid; padding-left: 4px}
+a.nav:visited {color:#1e90ff;text-decoration: none}
+a.nav:hover {color:#000000;text-decoration: underline}
+
+a.foot:link {color:#ffffff;text-decoration: none}
+a.foot:visited {color:#1e90ff;text-decoration: none}
+a.foot:hover {color:#c2e4f1;text-decoration: underline}
+
+</style>
+</head>
+<body>
+
+<header>
+ 
+<HR style="color: #5f7d8b">
+<IMG SRC="diable.jpg" ALT="Le Diable Volant" style="width:106px;height:79px">
+
+<H1 class="titre">Le Diable Volant</H1>
+
+<P class="titre">L'histoire, la vie et les moeurs des flibustiers, corsaires et pirates de la Jamaïque et de Saint-Domingue et autres lieux dans l'Amérique durant la seconde moitié du XVIIe siècle</P>
+<HR style="color:#5f7d8b;margin-bottom:0px">
+</header>
+
+<section>
 
 
-<P><A HREF="Proue/proue.html">Figures de Proue</A>, un dictionnaire biographique des principaux chefs flibustiers ainsi que des gouverneurs, officiers, marchands, habitants et autres gens que les premiers ont côtoyés durant leurs courses, descentes et relâches, depuis l'année 1648 jusqu'à l'année 1688.</P>
+  <nav>
 
-<P><A HREF="archives/archives.html">Les Archives de la flibuste</A>, où les vieux papiers du temps jadis, lettres et mémoires, dépositions et interrogatoires, racontent ici en extrait là in extenso les exploits et les revers des flibustiers.</P>
+<h3 style="text-align:center;padding:0;margin:0;color:#5f7d8b">Sommaire</h3>
+<HR style="padding:0;margin:0;color:#5f7d8b">
+<ul>
+      <li class="listpad"><a class="nav" href="https://diable-volant.blogspot.com/" target="_blank">La Gazette de la flibuste</a></li>
+      <li class="listpad"><a class="nav" href="#">Études et analyses</a></li>
+      <li class="listpad"><a class="nav" href="Proue/proue.html">Figures de Proue</a></li>
+      <li class="listpad"><a class="nav" href="archives/archives.html">Documents d'archives</a></li>
+      <li class="listpad"><a class="nav" href="Livre/livre.html">Une histoire générale des flibustiers suivie d'une description de leurs moeurs et coutumes</a></li>
+      <li class="listpad"><a class="nav" href="http://membre.oricom.ca/yarl/index.html" target="_blank">Ancien site</a></li>
 
-</DIV>
-
-<DIV CLASS="copy">
-<IMG SRC="1b.gif" ALT="ligne" ALIGN="top" WIDTH="350" HEIGHT="2">
-
-<P><STRONG>Le Diable Volant</STRONG> © <A NAME="droits d'auteur" HREF="copyright.html" TARGET="DISPLAY">Raynald Laprise</A>, 2000-2021.</P>
-
-</DIV>
-
-</TD></TR>
+    </ul>
+  </nav>
+  
+  <article>
 
 
-</TABLE>
+<H3>À tous ceux que ces présentes lettres verront, salut...</H3>
 
 
-</BODY>
-</HTML>
+<P>Les présentes pages sont consacrées à l'époque, l'histoire et les moeurs des flibustiers, ces corsaires et pirates de l'Amérique du XVIIe siècle. Elles traitent de la période allant de la signature des traités de Westphalie jusqu'à la veille de la guerre de la ligue d'Augsbourg (1648-1688). Ce véritable âge d'or de la piraterie dans la mer des Antilles est caractérisée par des attaques tant par mer que par terre contre les navires et les possessions espagnoles en Amérique par des bandes plus ou moins nombreuses d'aventuriers de toutes nations, à partir des jeunes colonies de la France et de l'Angleterre, particulièrement celles de Saint-Domingue et de la Jamaïque.</P>
+
+<P>Dans les années 1990, j'avais amassé beaucoup de renseignements sur ces pirates et corsaires de l'Amérique. À la toute fin du siècle dernier, en 2000, je décidai d'en faire profiter tous ceux qui, comme moi, étaient intéressés par le sujet. J'entrepris donc de faire une synthèse de ce que j'avais lu et recueilli sur les flibustiers jusqu'alors, qui prit la forme d'un site web que j'ai baptisé «&nbspLe Diable Volant&nbsp», du nom de l'un des navires de ces écumeurs des mers, site que je divisai en trois sections :</P>
+
+<OL>
+	<LI>un essai regroupant des textes sur <A HREF="../Livre/livre.html" target="_blank">L'époque, l'histoire et les moeurs des flibustiers</A>;</LI>
+	<LI>un dictionnaire biographique de la flibuste, baptisé <A HREF="../Proue/proue.html" target="_blank">Figures de proue</A>;</LI>
+	<LI>un recueil de transcription de documents d'époque (traitant des flibustiers, parfois écrits par certains d'entr'eux) nommé <A HREF="../archives/archives.html target="_blank">Les Archives de la flibuste</A>.</LI>
+</OL>
+
+<P>Dans les années qui ont suivi, j'ai eu l'occasion (tant par mes propres moyens que par la généreuse contribution d'autres personnes) d'en découvrir davantage sur les flibustiers, et ainsi d'enrichir un peu ce site. Jamais je n'avais pensé que mes petits travaux d'amateur avaient quelque importance, et qu'ils méritaient alors une publication en bonne et due forme. Fin 2010, je me suis rendu compte que je m'étais sous-estimé puisque le Diable Volant fut la cible d'un plagiat en règle. Je décidai alors de cesser de le mettre à jour. Depuis ce temps, et je me suis consacré uniquement à mes travaux de recherche sur les flibustiers. Cependant, à l'occasion, j'ai publié — et je publie encore — certains résultats de ces travaux sur mon blog, <A HREF="http://diable-volant.blogspot.com/" target="_blank">la Gazette de la Flibuste</A>.</P>
+
+<P>Quel est l'avenir du Diable Volant? Je l'ignore. Depuis vingt, les technologies ont beaucoup évolué, et maintenant, il est quasiment impossible de faire un site web qui ne soit pas adapté aux téléphones mobiles ou aux tablettes. Une transformation complète à terme exige du temps, temps que je n'ai pas toujours.</P>
+
+
+<P>De celui qui demeure votre très humble et très obéissant serviteur,</P>
+
+<P><A HREF="mailto:diable_volant@yahoo.com">Raynald Laprise</A>.</P>
+
+<P>Fait à Québec, ce sixième jour d'avril 2021.</P>
+
+</article>
+
+</section>
+
+
+<footer>
+<P><STRONG>Le Diable Volant</STRONG> © <A class="foot" HREF="mailto:diable_volant@yahoo.com">Raynald Laprise</A>, 2000-2021.</P>
+</footer>
+
+</body>
+</html>
