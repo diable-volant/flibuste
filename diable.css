@@ -1,0 +1,91 @@
+* {box-sizing: border-box;}
+
+body {font-family: Verdana, Arial, sans-serif;}
+
+/* Style the header */
+header {
+  background-color: #FFFFFF;
+  padding: 10px 10px 10px 0px;
+  border-top: 2px solid #66ace7;
+  border-bottom: 2px solid #5f7d8b;
+  text-align: left;
+  font-size: 20px;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #c2e4f1;
+  padding: 20px;
+  border-left: 2px solid #5f7d8b;
+  border-right: 2px solid #5f7d8b;
+  font-family: Copperplate, Papyrus, fantasy;
+  color: #5f7d8b
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #fcfbf5;
+  padding: 10px;
+  font-family: Georgia, Garamond, serif;
+}
+
+/* Style the footer */
+footer {
+  background-color: #5f7d8b;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+img.logo {float: left; width: 106px; height: 79px}
+
+.titre {color: #1e90ff; font-family: verdana, sans serif; font-weight: bold; text-align: left; margin-top:0; margin-bottom:0}
+.soustitre {color: #66ace7; font-family: verdana, sans serif; font-weight: bold; text-align: left; margin-top:0; margin-bottom:0}
+
+.menutitre {text-align:center; padding:0; margin:0; color:#5f7d8b; border-bottom:2px solid #5f7d8b}
+
+.listpad {padding-bottom:15px}
+
+.contact {padding-bottom:15px}
+
+a.menu:link {color: #5f7d8b; text-decoration: none; border-left: 4px solid; padding-left: 4px}
+a.menu:visited {color: #1e90ff; text-decoration: none; border-left: 4px solid; padding-left: 4px}
+a.menu:hover {color: #000000; text-decoration: underline; border-left: 4px solid; padding-left: 4px}
+p.menu {text-align: center}
+
+a.contact:link {background: #5f7d8b; color: #ffffff; text-decoration: none; border: 2px solid; padding: 4px}
+a.contact:hover {background: #ffffff; color: #000000; text-decoration: underline; border: 2px solid; padding: 4px}
+
+h3.titretext {text-align:center}
+.corpstext {text-align: justify}
+
+a.foot:link {color:#ffffff; text-decoration: none}
+a.foot:visited {color:#1e90ff; text-decoration: none}
+a.foot:hover {color:#c2e4f1; text-decoration: underline}
