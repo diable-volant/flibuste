@@ -1,0 +1,103 @@
+* {box-sizing: border-box;}
+
+body {font-family: Verdana, Arial, sans-serif;}
+
+/* Style the header */
+header {
+  background-color: #FFFFFF;
+  padding: 0px 10px 10px 0px;
+  text-align: left;
+  font-size: 20px;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+ border: 2px solid #66ace7;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: #66ace7;
+  padding: 10px;
+  font-family: Copperplate, Papyrus, fantasy;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0px;
+
+}
+
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #ffffff;
+  padding: 10px;
+  font-family: Georgia, Garamond, serif;
+  
+}
+
+/* Style the footer */
+footer {
+  background-color: #5f7d8b;
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+
+
+
+.titre {color: #1e90ff; font-weight: bold; text-align: left; margin-top:0; margin-bottom:0; border-top: 2px solid #66ace7}
+.soustitre {color: #66ace7; font-weight: bold; text-align: left; margin-top:0; margin-bottom:0}
+
+/* NAVIGATION DANS LE DICTIONNAIRE */
+
+.menutitre {text-align:center; padding:0px; margin:0px; color:#5f7d8b; border-bottom:2px solid #5f7d8b}
+
+a.menu:link {color: #ffffff; text-decoration: none; padding: 2px}
+a.menu:visited {color: #ffffff; text-decoration: none; padding: 2px}
+a.menu:hover {background: #ffffff; color: #000000; text-decoration: underline; padding: 2px}
+
+/* ENTRÉE DE DICTIONNAIRE */
+
+h2.entree {color: #006699; font-family: verdana, arial, sans serif; font-style: normal; font-weight: bold; font-size: 90%; ; margin-top: 0px; ; margin-left: 5px; ; margin-right: 0px; margin-bottom: 10px; padding: 0px; text-align: left; clear: both; border-top: 1px solid #006699}
+
+.entry {color: #003366; font-weight: bold}
+.surname {color: #003366; font-weight: bold; font-style: italic}
+
+.titretext {text-align:center; color:#5f7d8b; margin-top: 0px; padding-top: 0px}
+
+.etext {font-style: normal; font-size: 90%; text-align: justify; padding-left: 20px; padding-right: 20px}
+
+h4.sources {color: #006699; font-family: verdana, arial, sans serif; font-style: normal; font-weight: bold; font-size: 90%; ; text-align: left; clear: both; border-top: 1px solid #006699}
+
+
+
+.signum {text-align: right}
+
+
+/* PIED DE PAGE */
+
+a.foot:link {color:#ffffff; text-decoration: none}
+a.foot:visited {color:#1e90ff; text-decoration: none}
+a.foot:hover {color:#c2e4f1; text-decoration: underline}
