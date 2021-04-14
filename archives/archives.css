@@ -87,12 +87,26 @@ a.contact:hover {background: #ffffff; color: #000000; text-decoration: underline
 
 
 
-h3.titretext {text-align:center}
+.titretext {text-align:center; color:#5f7d8b; margin-top: 0px; padding-top: 0px}
 .corpstext {text-align: justify}
 
 a.foot:link {color:#ffffff; text-decoration: none}
 a.foot:visited {color:#ffffff; text-decoration: none}
 a.foot:hover {color:#c2e4f1; text-decoration: underline}
+
+/* NAVIGATION DANS LES DÉCENNIES */
+
+
+ul.menuarch {list-style-type: none;padding: 0px; text-align: center}
+
+a.decade:link {color: #5f7d8b; text-decoration: none; padding-left: 4px}
+a.decade:visited {color: #1e90ff; text-decoration: none; padding-left: 4px}
+a.decade:hover {color: #000000; text-decoration: underline; padding-left: 4px}
+
+h2.menuarch2 {padding: 0px; text-align: center; font-weight: normal; font-size: normal;   font-family: Copperplate, Papyrus, fantasy} 
+
+ul.sousmenuarch {text-align: left; padding: 0px 20px 20px 20px}
+
 
 
 
