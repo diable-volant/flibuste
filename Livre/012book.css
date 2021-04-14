@@ -70,7 +70,7 @@ footer {
 .titre {color: #1e90ff; font-weight: bold; text-align: left; margin-top:0; margin-bottom:0; border-top: 2px solid #66ace7}
 .soustitre {color: #66ace7; font-weight: bold; text-align: left; margin-top:0; margin-bottom:0}
 
-/* NAVIGATION DANS LE DICTIONNAIRE */
+/* NAVIGATION */
 
 .menutitre {text-align:center; padding:0px; margin:0px; color:#5f7d8b; border-bottom:2px solid #5f7d8b}
 
@@ -85,15 +85,31 @@ h2.entree {color: #006699; font-family: verdana, arial, sans serif; font-style: 
 .entry {color: #003366; font-weight: bold}
 .surname {color: #003366; font-weight: bold; font-style: italic}
 
+
+
 .titretext {text-align:center; color:#5f7d8b; margin-top: 0px; padding-top: 0px}
 
 .etext {font-style: normal; font-size: 90%; text-align: justify; padding-left: 20px; padding-right: 20px}
 
 h4.sources {color: #006699; font-family: verdana, arial, sans serif; font-style: normal; font-weight: bold; font-size: 90%; ; text-align: left; clear: both; border-top: 1px solid #006699}
 
+.citation {font-style: italic; padding-left: 50px}
+
+
+
+.commentaire {font-style: italic; font-size: 80%; text-align: justify; padding-right: 33vw}
+
 
 
 .signum {text-align: right}
+
+h4.titrenote {color: #006699; font-family: verdana, arial, sans serif; font-style: normal; font-weight: bold; font-size: 120%; ; text-align: left; clear: both; border-top: 1px solid #006699; }
+
+
+
+.notes {font-style: normal; font-size: 80%; text-align: justify; padding-left: 20px; padding-right: 20px}
+
+.reference {font-family: courier, monospace; text-align: left; font-size: 90%}
 
 
 /* PIED DE PAGE */
