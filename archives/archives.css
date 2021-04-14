@@ -129,7 +129,10 @@ h3.document {text-align:center; margin:0px; padding:10px}
 
 h4.etrad {color: #0066FF; font-style: normal; font-weight: normal; text-align: left; clear: both; background-color: #FFFFFF; padding: 4px; font-family: Verdana, Arial, sans-serif;}
 
-.edoc {text-align: justify; margin-top: 0px; margin-left: 0px; margin-right: 0px; margin-bottom: 0px; padding: 20px}
+.sousdoctitre {text-align: left; font-style: italic; padding-right:50%}
+
+
+.edoc {text-align: justify; margin-top: 0px; margin-left: 0px; margin-right: 0px; margin-bottom: 0px; padding: 5px 20px 20px 20px}
 
 
 
