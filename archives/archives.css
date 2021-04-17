@@ -113,7 +113,9 @@ ul.sousmenuarch {text-align: left; padding: 0px 20px 20px 20px}
 /* FORMATAGE DOCUMENT */
 
 
-h1.titrarchiv {color: #1e90ff; text-align: right; margin-top:0; margin-bottom:0; border-top: 2px solid #66ace7}
+h1.titrarchiv2 {color: #1e90ff; text-align: right; margin-top:0; margin-bottom:0; border-top: 2px solid #66ace7}
+
+h1.titrarchiv {color: #1e90ff; font-weight: bold; text-align: left; margin-top:0; margin-bottom:0; border-top: 2px solid #66ace7}
 
 h2.titrintro {color: #FFFFFF; font-weight: bold; margin: 0px; padding: 10px; text-align: center; clear: both; background-color: #6699FF}
 
