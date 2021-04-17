@@ -117,9 +117,9 @@ h1.titrarchiv {color: #1e90ff; text-align: right; margin-top:0; margin-bottom:0;
 
 h2.titrintro {color: #FFFFFF; font-weight: bold; margin: 0px; padding: 10px; text-align: center; clear: both; background-color: #6699FF}
 
-.intro {text-align: justify; margin: 0px; padding: 10px; border-bottom: 2px solid #6699FF}
+.intro {text-align: justify; margin: 0px; padding: 10px 10px 5px 10px; border-bottom: 2px solid #6699FF}
 
-.signum {text-align: right}
+.signum {text-align: right; padding-bottom:0px; margin-bottom:0px}
 
 .cadre {background-color:#fcfbf5; margin-top: 5px; border: 5px solid #6699FF}
 
@@ -135,6 +135,10 @@ h3.document {text-align:center; margin:0px; padding:10px}
 .edoc {text-align: justify; margin-top: 0px; margin-left: 0px; margin-right: 0px; margin-bottom: 0px; padding: 5px 20px 20px 20px}
 
 
+.titrenote {color: #006699; font-family: verdana, arial, sans serif; font-style: normal; font-weight: bold; font-size: 120%; ; text-align: left; clear: both; border-top: 1px solid #006699; }
+
+
+.notes {font-style: normal; font-size: 80%; text-align: justify; padding-left: 20px; padding-right: 20px}
 
 
 .reference {font-family: courier, monospace; text-align: left;}
