@@ -53,6 +53,7 @@ footer {
   background-color: #5f7d8b;
   padding: 5px;
   text-align: center;
+  font-size: 80%;
   color: white;
 }
 
@@ -90,3 +91,5 @@ a.contact:hover {background: #ffffff; color: #000000; text-decoration: underline
 a.foot:link {color:#ffffff; text-decoration: none}
 a.foot:visited {color:#1e90ff; text-decoration: none}
 a.foot:hover {color:#c2e4f1; text-decoration: underline}
+
+.github {font-size: 75%}
