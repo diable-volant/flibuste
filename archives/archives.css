@@ -19,7 +19,7 @@ section {
 }
 
 /* Style the navigation menu */
-nav {
+nav.gauche {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -44,7 +44,6 @@ article {
   -ms-flex: 3;
   flex: 3;
   padding: 0px 0px 0px 0px;
-  font-family: Georgia, Garamond, serif;
 }
 
 /* Style the footer */
@@ -53,6 +52,7 @@ footer {
   padding: 10px;
   text-align: center;
   color: white;
+  font-size: 80%;
 }
 
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
@@ -92,7 +92,7 @@ a.contact:hover {background: #ffffff; color: #000000; text-decoration: underline
 
 a.foot:link {color:#ffffff; text-decoration: none}
 a.foot:visited {color:#ffffff; text-decoration: none}
-a.foot:hover {color:#c2e4f1; text-decoration: underline}
+a.foot:hover {background:#000000; color:#c2e4f1; text-decoration: underline}
 
 /* NAVIGATION DANS LES DÉCENNIES */
 
@@ -103,9 +103,9 @@ a.decade:link {color: #5f7d8b; text-decoration: none; padding-left: 4px}
 a.decade:visited {color: #1e90ff; text-decoration: none; padding-left: 4px}
 a.decade:hover {color: #000000; text-decoration: underline; padding-left: 4px}
 
-h2.menuarch2 {padding: 0px; text-align: center; font-weight: normal; font-size: normal;   font-family: Copperplate, Papyrus, fantasy} 
+h2.menuarch2 {padding: 0px; text-align: center; font-weight: normal; font-size: 100%} 
 
-ul.sousmenuarch {text-align: left; padding: 0px 20px 20px 20px}
+ul.sousmenuarch {text-align: left; padding: 0px 20px 20px 50px; font-size: 80%}
 
 
 
@@ -117,7 +117,7 @@ h1.titrarchiv2 {color: #1e90ff; text-align: right; margin-top:0; margin-bottom:0
 
 h1.titrarchiv {color: #1e90ff; font-weight: bold; text-align: left; margin-top:0; margin-bottom:0; border-top: 2px solid #66ace7}
 
-h2.titrintro {color: #FFFFFF; font-weight: bold; margin: 0px; padding: 10px; text-align: center; clear: both; background-color: #6699FF}
+h2.titrintro {color: #FFFFFF; font-weight: bold; margin: 0px; padding: 10px; text-align: center; clear: both; background-color: #66ace7}
 
 .intro {text-align: justify; margin: 0px; padding: 10px 10px 5px 10px; border-bottom: 2px solid #6699FF}
 
@@ -127,14 +127,14 @@ h2.titrintro {color: #FFFFFF; font-weight: bold; margin: 0px; padding: 10px; tex
 
 h3.document {text-align:center; margin:0px; padding:10px}
 
-.source {font-style: normal; font-weight: normal; text-align: justify; margin: 0px; padding: 10px; border-bottom: 2px solid #6699FF; background-color: #99CCFF}
+.source {font-style: normal; font-weight: normal; text-align: justify; margin: 0px; padding: 10px; border-bottom: 2px solid #6699FF; background-color: #99CCFF; font-size: 90%}
 
 h4.etrad {color: #0066FF; font-style: normal; font-weight: normal; text-align: left; clear: both; background-color: #FFFFFF; padding: 4px; font-family: Verdana, Arial, sans-serif;}
 
 .sousdoctitre {text-align: left; font-style: italic; padding-right:50%}
 
 
-.edoc {text-align: justify; margin-top: 0px; margin-left: 0px; margin-right: 0px; margin-bottom: 0px; padding: 5px 20px 20px 20px}
+.edoc {text-align: justify; margin-top: 0px; margin-left: 0px; margin-right: 0px; margin-bottom: 0px; padding: 5px 20px 20px 20px;font-family: Georgia, Garamond, serif;}
 
 
 .titrenote {color: #006699; font-family: verdana, arial, sans serif; font-style: normal; font-weight: bold; font-size: 120%; ; text-align: left; clear: both; border-top: 1px solid #006699; }
@@ -142,5 +142,19 @@ h3.document {text-align:center; margin:0px; padding:10px}
 
 .notes {font-style: normal; font-size: 80%; text-align: justify; padding-left: 20px; padding-right: 20px}
 
+/* FORMATAGE PIED DE PAGE */
 
-.reference {font-family: courier, monospace; text-align: left;}
+nav.doc {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: #66ace7;
+  font-family: Verdana, Arial, sans-serif; font-size: 90%;
+  padding: 1px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.copyright {font-size: 75%;}
+
+.reference {font-family: courier, monospace; text-align: left; padding-top:0px}
