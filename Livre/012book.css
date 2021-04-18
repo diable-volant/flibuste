@@ -54,6 +54,7 @@ footer {
   padding: 5px;
   text-align: center;
   color: white;
+  font-size: 80%;
 }
 
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
