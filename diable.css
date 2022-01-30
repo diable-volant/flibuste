@@ -93,3 +93,5 @@ a.foot:visited {color:#1e90ff; text-decoration: none}
 a.foot:hover {color:#c2e4f1; text-decoration: underline}
 
 .github {font-size: 75%}
+
+.kebek {max-width: 100%; height: auto}
