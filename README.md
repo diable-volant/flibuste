@@ -1,4 +1,10 @@
 # flibuste
-Site Web « Le Diable Volant », contenant divers renseignements sur l'histoire, l'époque et les moeurs des flibustiers, pirates et corsaires de la Jamaïque, Saint-Domingue et autres lieux de l'Amérique dans la seconde moitié du XVIIe siècle.
+Ce répertoire héberge toutes les pages formant la version courante du site Web « Le Diable Volant », présentant divers textes et documents relatifs à l'histoire, l'époque et les moeurs des flibustiers, pirates et corsaires de la Jamaïque, Saint-Domingue et autres lieux de l'Amérique dans la seconde moitié du XVIIe siècle.
 
-Website "Le Diable Volant", containing various information on the history, the times and the customs of the privateers and pirates of Jamaica, Saint-Domingue and other places in the Americas in the second half of the 17th century.
+This repository hosts all the contents of the current version of the Website "Le Diable Volant", about the history, the times and the customs of the privateers and pirates of Jamaica, Saint-Domingue and other places in the Americas in the second half of the 17th century.
+
+Copyright © Raynald Laprise, 2000-2024.
+
+Toute reproduction, totale ou partielle, et sous quelque forme que ce soit, des textes présentés dans Le Diable Volant et contenus dans le présent répertoire est strictement interdite à moins d'accord préalable de leurs auteurs respectifs, sous réserves toutefois des exceptions prévues par la Convention de Berne pour la protection des œuvres littéraires et artistiques, par les autres traités internationaux administrés par l'Organisation mondiale de la propriété intellectuelle, ou encore par toute loi nationale d'un État régissant les droits d'auteur et droits connexes.
+
+Any reproduction, total or partial, and in any form whatsoever, of the texts presented in Le Diable Volant and contained in this directory is strictly prohibited without the prior agreement of their respective authors, subject however to the exceptions provided for by the Berne Convention for the Protection of Literary and Artistic Works, by other international treaties administered by the World Intellectual Property Organization, or by any national law of a State governing copyright and related rights.
