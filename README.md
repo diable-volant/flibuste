@@ -1,7 +1,7 @@
 # flibuste
-Ce répertoire héberge toutes les pages formant la version courante du site Web _Le Diable Volant_, proposant divers textes et documents relatifs à l'histoire, l'époque et les moeurs des flibustiers, pirates et corsaires de la Jamaïque, Saint-Domingue et autres lieux de l'Amérique dans la seconde moitié du XVIIe siècle.
+Ce répertoire héberge toutes les pages formant la version courante du site Web _Le Diable Volant_ (https://diable-volant.github.io/flibuste/), proposant divers textes et documents relatifs à l'histoire, l'époque et les moeurs des flibustiers, pirates et corsaires de la Jamaïque, Saint-Domingue et autres lieux de l'Amérique dans la seconde moitié du XVIIe siècle.
 
-This repository hosts all the contents of the current version of the Website _Le Diable Volant_, offering various texts and documents relating to the history, the times and the customs of the privateers and pirates of Jamaica, Saint-Domingue and other places in the Americas in the second half of the 17th century.
+This repository hosts all the contents of the current version of the Website _Le Diable Volant_ (https://diable-volant.github.io/flibuste/), offering various texts and documents relating to the history, the times and the customs of the privateers and pirates of Jamaica, Saint-Domingue and other places in the Americas in the second half of the 17th century.
 
 **Copyright © Raynald Laprise, 2000-2024**.
 
