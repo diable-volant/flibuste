@@ -3,7 +3,7 @@ Ce répertoire héberge toutes les pages formant la version courante du site Web
 
 This repository hosts all the contents of the current version of the Website _Le Diable Volant_ (https://diable-volant.github.io/flibuste/), offering various texts and documents relating to the history, the times and the customs of the privateers and pirates of Jamaica, Saint-Domingue and other places in the Americas in the second half of the 17th century.
 
-**Copyright © Raynald Laprise, 2000-2024**.
+**Copyright © Raynald Laprise, 2000-2025**.
 
 Toute reproduction, totale ou partielle, et sous quelque forme que ce soit, des textes figurant dans _Le Diable Volant_ et contenus dans le présent répertoire est strictement interdite à moins d'accord préalable de leurs auteurs respectifs, sous réserves toutefois des exceptions prévues par la _Convention de Berne pour la protection des œuvres littéraires et artistiques_, par les autres traités internationaux administrés par l'Organisation mondiale de la propriété intellectuelle, ou encore par toute loi nationale d'un État régissant les droits d'auteur et droits connexes.
 
